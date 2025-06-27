@@ -45,3 +45,6 @@ patch:
     PowerToys.PowerLauncher.exe:
       ascii_mode: true
       vim_mode: true
+    Obsidian.exe:
+      ascii_mode: true
+      vim_mode: true
