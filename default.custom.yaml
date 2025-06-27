@@ -1,0 +1,17 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon Feb 24 16:17:37 2025"
+  rime_version: 1.11.2
+patch:
+  ascii_composer:
+    good_old_caps_lock: true  # 切换大小写
+    switch_key:  # 打字打到一半按键后效果,
+      Caps_Lock: noop
+      Shift_L: commit_code  # 上屏原始编码，然后切换到英文
+      Shift_R: inline_ascii # 切换临时英文模式，按回车上屏后回到中文状态
+      Control_L: noop
+      Control_R: noop
+  menu:
+    page_size: 9
